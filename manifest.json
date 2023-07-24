@@ -14,5 +14,8 @@
       "matches": ["*://*.twitter.com/*", "*://*.x.com/*"],
       "js": ["app.js"]
     }
+  ],
+  "web_accessible_resources": [
+    "images/twitter.ico"
   ]
 }
