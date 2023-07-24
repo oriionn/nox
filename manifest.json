@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "NoX",
+  "version": "1.0",
+  "description": "Return to old logo of Twitter",
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitter.com/*", "*://*.x.com/*"],
+      "js": ["app.js"]
+    }
+  ]
+}
