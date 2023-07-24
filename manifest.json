@@ -8,5 +8,10 @@
       "matches": ["*://*.twitter.com/*", "*://*.x.com/*"],
       "js": ["app.js"]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "nox@oriionn"
+    }
+  }
 }
